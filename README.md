@@ -90,11 +90,7 @@ Built solo in 1 week by **Sonu Babu**.
 - 🧠 Design, Code & Integration
 - 🔗 https://github.com/entropy-com/sonar
 
----
 
-## 📜 License
-
-[MIT](LICENSE)
 
 ---
 
