@@ -1,8 +1,3 @@
-Here’s your full GitHub `README.md` file for **AtlasMind**, styled like the sonar tech from *The Dark Knight* — a sleek, futuristic, high-impact AI tool that merges Perplexity, Sonar, maps, and intelligence overlays into one cinematic research interface.
-
----
-
-````markdown
 # 🦇 AtlasMind: Live Sonar Research Copilot
 
 > "Like Lucius Fox’s sonar-powered surveillance — but for intelligence, not control."
@@ -81,7 +76,7 @@ cp .env.example .env.local
 
 # Start the app
 pnpm dev
-````
+```
 
 ---
 
@@ -115,22 +110,21 @@ atlasmind/
 
 Try these for best results:
 
-* “Top financial collapses by country since 2000”
-* “Health risks linked to urbanization in Africa”
-* “Biggest geopolitical flashpoints of 2025”
-* “Tech unicorns likely to IPO in the next 6 months”
+- “Top financial collapses by country since 2000”
+- “Health risks linked to urbanization in Africa”
+- “Biggest geopolitical flashpoints of 2025”
+- “Tech unicorns likely to IPO in the next 6 months”
 
 ---
 
 ## 🏆 Hackathon Submission
 
-🔷 **Hackathon**: Perplexity AI Hackathon
+🔷 **Hackathon**: Perplexity AI Hackathon  
 🏁 **Track Fit**:
-
-* 🧠 Best Deep Research Project
-* 💰 Best Finance Project
-* 🩺 Best Health Project
-* 🎨 Most Fun / Creative Project
+- 🧠 Best Deep Research Project
+- 💰 Best Finance Project
+- 🩺 Best Health Project
+- 🎨 Most Fun / Creative Project
 
 ---
 
@@ -138,7 +132,7 @@ Try these for best results:
 
 Built with obsession by:
 
-👨‍💻 **Sonu Babu**
+👨‍💻 **Sonu Babu**  
 🔗 [GitHub](https://github.com/sonubabu-dev) | [Portfolio](https://yourportfolio.com)
 
 ---
@@ -152,4 +146,3 @@ MIT © 2025 Sonu Babu
 ## 🦇 Final Word
 
 > “This is too powerful to fall into the wrong hands. But with the right hands — it’s a window into truth.”
-
