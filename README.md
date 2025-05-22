@@ -1,148 +1,105 @@
-# 🦇 AtlasMind: Live Sonar Research Copilot
 
-> "Like Lucius Fox’s sonar-powered surveillance — but for intelligence, not control."
+# SONAR
 
-**AtlasMind** is your Batman-grade sonar research copilot — fusing the raw power of [Perplexity AI](https://www.perplexity.ai), [Sonar API](https://sonar.perplexity.ai), live charts, heatmaps, and neural intelligence threads into a tactical ops dashboard. It’s not just Q&A — it’s battlefield intelligence for deep thinkers, investors, researchers, and curious minds.
+> Inspired by the sonic surveillance tech from *The Dark Knight*, SONAR is a real-time tech news intelligence dashboard that uses the Perplexity and Sonar APIs to track, visualize, and analyze the latest happenings in tech, finance, and global trends.
 
-![Dark Themed Banner](./public/atlasmind-dark-sonar.png)
+![SONAR Banner](https://yourimageurl.com/banner.png)
 
----
+## 🚀 Overview
 
-## 🧬 Why AtlasMind?
-
-In a world drowning in data, AtlasMind lets you **see** patterns, **trace** anomalies, and **ask** questions like a modern detective. Whether it's market meltdowns, disease hotspots, or tech revolutions — we light up the map, the charts, and the context.
+**SONAR** is a one-week hackathon project designed to give users a visually rich and deeply insightful tech digest. It's a research-grade tool with intuitive UX, taking UI inspiration from Perplexity.ai and layered with charts, maps, graphs, and animated data flows.
 
 ---
 
-## 🕹️ Core Features
+## 🧠 Features
 
-| ⚙️ Module | 🧠 Description |
-|----------|----------------|
-| 🔮 **Perplexity Neural Threads** | Generate threaded responses with citations & follow-ups |
-| 🛰️ **Sonar Signal Tracker** | Visualize hot questions, anomalies, or trending shifts |
-| 🗺️ **World Intelligence Map** | Plot answers and sources on a global heatmap |
-| 📈 **Live Chart Sync** | Dynamic financial, health, or tech indicators |
-| 🧵 **Research Trees** | Trace how your questions evolve like Sherlock Holmes |
-| 📂 **Exportable Reports** | Download insights into Markdown, PDF, or embeddable cards |
-| 🌙 **Dark Knight Theme** | UI inspired by Lucius Fox’s sonar surveillance panel |
-| 🔐 **Session Persistence** | Continue research where you left off, across devices |
+- 🔎 **Quick Tech Digest** — TL;DR of the latest tech & finance news in bite-sized updates.
+- 🧭 **Trend Radar** — Track hot topics and emerging technologies.
+- 🌐 **Interactive Global Heatmaps** — See where news is trending around the world.
+- 📊 **Real-Time Charts & Graphs** — Visualize market moves, funding rounds, and more.
+- 🎯 **Ask Anything** — Perplexity-powered smart search to get fast, sourced answers.
+- 🗂️ **Newsroom Archives** — Dive deep into a topic's past updates and history.
+- 🕵️ **Live Intelligence Mode** — Simulates a detective dashboard with moving nodes, sonar waves, and data pulses.
 
 ---
 
-## 🧠 Built With
+## 💻 Tech Stack
 
-- **Frontend**: Next.js, TailwindCSS, shadcn/ui, Framer Motion
-- **Data Intelligence**: Perplexity API, Sonar API, World Bank, WHO, Yahoo Finance APIs
-- **Visualization**: Apache ECharts, Recharts, MapboxGL / Leaflet
-- **Backend & Auth**: Supabase
-- **Design Language**: Inspired by *The Dark Knight* sonar UI, combined with Perplexity elegance
-
----
-
-## 🖼️ UI Design Language
-
-> “Minimal. Tactical. Zero distraction. Total control.”
-
-- 🌓 Matte black + neon cyan color palette
-- 🧭 3D globe with sonar pulse rings
-- 📊 Floating cards with blur & glassmorphism
-- 🧵 Answer threads visualized like conversation nodes
-- 💡 Smooth UI animations, cursor trails, modal scan transitions
+| Layer       | Tech                            |
+|-------------|---------------------------------|
+| Frontend    | Next.js, Tailwind CSS, ShadCN UI, Framer Motion |
+| Backend     | Supabase, Perplexity API, Sonar API |
+| Visualization | Recharts, Leaflet.js, D3.js         |
+| Deployment  | Vercel                          |
 
 ---
 
-## 🌍 Example Scenarios
+## 🎨 UI/UX Design
 
-- “What countries are seeing the fastest AI job disruption?”
-  - Sonar heatmap + job trend chart + policy response threads
+Inspired by Perplexity and The Dark Knight’s sonar system:
+- Dark UI theme with neon blue and electric green highlights.
+- Minimalist dashboards with animated radar sweeps and glowing nodes.
+- Cards with hover effects and micro-interactions.
+- Typography: `IosevkaTerm Nerd Font` or `JetBrains Mono`.
 
-- “What led to the 2022 crypto crash?”
-  - Financial timeline + sentiment gauge + chain reactions
-
-- “Where are infectious diseases on the rise in 2025?”
-  - WHO map + temperature correlation chart + real-time outbreak signals
+**Figma Preview:** _Coming Soon_
 
 ---
 
-## 🛠️ Setup Guide
+## 🛠️ Setup & Installation
 
 ```bash
-git clone https://github.com/your-username/atlasmind.git
-cd atlasmind
+git clone https://github.com/yourusername/sonar.git
+cd sonar
 pnpm install
-
-# Add your .env.local
-cp .env.example .env.local
-
-# Start the app
 pnpm dev
 ```
 
----
-
-### 🔐 .env Configuration
+Setup environment variables in a `.env.local` file:
 
 ```env
-NEXT_PUBLIC_PERPLEXITY_API_KEY=your_perplexity_api_key
-NEXT_PUBLIC_SONAR_API_KEY=your_sonar_api_key
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+PERPLEXITY_API_KEY=your_key
+SONAR_API_KEY=your_key
+SUPABASE_URL=your_url
+SUPABASE_KEY=your_key
 ```
 
 ---
 
-## 🧭 Folder Architecture
+## 🔮 Example Use Cases
 
-```
-atlasmind/
-├── components/         → Cards, Maps, Threads, Modals
-├── lib/                → API clients, utils
-├── pages/              → Home, session, search
-├── public/             → Images, banner, sonar SVGs
-├── styles/             → Tailwind config, dark theme
-├── .env.example
-├── README.md
-```
+- Founders monitoring global startup trends.
+- VCs staying ahead with real-time funding alerts.
+- Students getting concise daily briefings on tech.
+- Reporters researching timelines and event triggers.
 
 ---
 
-## 🧪 Test Research Prompts
+## 🧪 Future Scope
 
-Try these for best results:
-
-- “Top financial collapses by country since 2000”
-- “Health risks linked to urbanization in Africa”
-- “Biggest geopolitical flashpoints of 2025”
-- “Tech unicorns likely to IPO in the next 6 months”
+- Notifications & digest emails.
+- Personalized dashboards based on user preferences.
+- GPT-based summarization with voice output.
+- GitHub Activity Radar.
 
 ---
 
-## 🏆 Hackathon Submission
+## 🤝 Team
 
-🔷 **Hackathon**: Perplexity AI Hackathon  
-🏁 **Track Fit**:
-- 🧠 Best Deep Research Project
-- 💰 Best Finance Project
-- 🩺 Best Health Project
-- 🎨 Most Fun / Creative Project
+Built solo in 1 week by **Sonu Babu**.
+- 🧠 Design, Code & Integration
+- 🔗 https://github.com/entropy-com/sonar
 
 ---
 
-## ✨ Creator
+## 📜 License
 
-Built with obsession by:
-
-👨‍💻 **Sonu Babu**  
-🔗 [GitHub](https://github.com/sonubabu-dev) | [Portfolio](https://yourportfolio.com)
+[MIT](LICENSE)
 
 ---
 
-## 🕳️ License
+## 🌌 Acknowledgements
 
-MIT © 2025 Sonu Babu
-
----
-
-## 🦇 Final Word
-
-> “This is too powerful to fall into the wrong hands. But with the right hands — it’s a window into truth.”
+- Inspired by **The Dark Knight’s** sonar surveillance concept.
+- Perplexity.ai for their incredible APIs.
+- Supabase for effortless backend setup.
