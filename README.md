@@ -3,7 +3,7 @@
 
 > Inspired by the sonic surveillance tech from *The Dark Knight*, SONAR is a real-time tech news intelligence dashboard that uses the Perplexity and Sonar APIs to track, visualize, and analyze the latest happenings in tech, finance, and global trends.
 
-![SONAR Banner](https://yourimageurl.com/banner.png)
+![SONAR Banner](https://raw.githubusercontent.com/itsfingerlickinggood/prompt/refs/heads/main/pics/ChatGPT%20Image%20May%2023%2C%202025%2C%2001_16_44%20AM.png)
 
 ## 🚀 Overview
 
