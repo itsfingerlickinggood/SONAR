@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SONAR/app/api/maps/route.ts"],"sourcesContent":["// Mapbox or Unsplash API handler\nexport async function GET() {\n  const mapboxKey = process.env.NEXT_PUBLIC_MAPBOX_API_KEY;\n  const unsplashKey = process.env.UNSPLASH_ACCESS_KEY;\n  const unsplashSecret = process.env.UNSPLASH_SECRET_KEY;\n  return new Response(JSON.stringify({\n    mapboxKey,\n    unsplashKey,\n    unsplashSecret\n  }), { status: 200 });\n}\n"],"names":[],"mappings":"AAAA,iCAAiC;;;;AAC1B,eAAe;IACpB,MAAM;IACN,MAAM,cAAc,QAAQ,GAAG,CAAC,mBAAmB;IACnD,MAAM,iBAAiB,QAAQ,GAAG,CAAC,mBAAmB;IACtD,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC;QACjC;QACA;QACA;IACF,IAAI;QAAE,QAAQ;IAAI;AACpB"}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SONAR/app/components/Map.tsx"],"sourcesContent":["\"use client\";\nimport dynamic from \"next/dynamic\";\n\nconst MapComponent = dynamic(() => import(\"./MapLeaflet\"), { ssr: false });\n\n// Mapbox/Leaflet map\nexport default function Map() {\n  return (\n    <div style={{ width: \"100%\", height: 250 }}>\n      <MapComponent />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAGA,MAAM,eAAe,CAAA,GAAA,kKAAA,CAAA,UAAO,AAAD,EAAE;;;;;;IAAgC,KAAK;;KAA5D;AAGS,SAAS;IACtB,qBACE,6LAAC;QAAI,OAAO;YAAE,OAAO;YAAQ,QAAQ;QAAI;kBACvC,cAAA,6LAAC;;;;;;;;;;AAGP;MANwB"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

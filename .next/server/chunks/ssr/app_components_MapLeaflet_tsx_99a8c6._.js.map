@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///workspaces/SONAR/app/components/MapLeaflet.tsx"],"sourcesContent":["import { MapContainer, TileLayer, Marker, Popup } from \"react-leaflet\";\n\nconst position: [number, number] = [37.7749, -122.4194];\n\nexport default function MapLeaflet() {\n  return (\n    <MapContainer\n      center={position}\n      zoom={2}\n      style={{ height: \"100%\", width: \"100%\" }}\n    >\n      <TileLayer\n        url=\"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png\"\n        attribution=\"&copy; OpenStreetMap contributors\"\n      />\n      <Marker position={position}>\n        <Popup>San Francisco</Popup>\n      </Marker>\n    </MapContainer>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;AAAA;AAAA;;;AAEA,MAAM,WAA6B;IAAC;IAAS,CAAC;CAAS;AAExC,SAAS;IACtB,qBACE,8OAAC,uJAAA,CAAA,eAAY;QACX,QAAQ;QACR,MAAM;QACN,OAAO;YAAE,QAAQ;YAAQ,OAAO;QAAO;;0BAEvC,8OAAC,oJAAA,CAAA,YAAS;gBACR,KAAI;gBACJ,aAAY;;;;;;0BAEd,8OAAC,iJAAA,CAAA,SAAM;gBAAC,UAAU;0BAChB,cAAA,8OAAC,gJAAA,CAAA,QAAK;8BAAC;;;;;;;;;;;;;;;;;AAIf"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

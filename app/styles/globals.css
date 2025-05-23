@@ -1,0 +1,4 @@
+/* Tailwind base styles. Ignore unknown at-rule warnings if using VS Code or some editors. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
